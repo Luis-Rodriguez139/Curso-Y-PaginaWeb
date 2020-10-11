@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Validar inputs</title>
+</head>
+<body>
+	<form method="post" action="#">
+		<label for="numeros">Numeros</label>
+		<input maxlength="10" minlength="4" type="text" name="numeros" required="" pattern="[0-9]+">
+		<br>
+		<label for="letra">letras</label>
+		<input maxlength="10" minlength="4" type="text" name="letras" required="" pattern="[a-zA-Z]+">
+		<br>
+		<label for="textarea">Area</label>
+		<textarea name="textoArea" required=""></textarea>
+		<br>
+		<button>Enviar</button>
+		
+	</form>
+
+</body>
+</html>
